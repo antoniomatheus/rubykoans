@@ -35,8 +35,6 @@ def score(dice)
     accumulator
   end
 
-  puts numbers
-
   result = 0
   numbers.each do |number, count|
     if (count >= 3)
